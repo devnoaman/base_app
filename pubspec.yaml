@@ -1,0 +1,51 @@
+name: base
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.3.0-279.2.beta <4.0.0"
+
+dependencies:
+  awesome_dio_interceptor: ^1.1.0
+  dio: ^5.4.1
+  flutter:
+    sdk: flutter
+  flutter_hooks: ^0.20.5
+  flutter_riverpod: ^2.4.10
+  go_router: ^13.2.0
+  hooks_riverpod: ^2.4.10
+  iconsax: ^0.0.8
+  shared_preferences: ^2.2.2
+  app_manager:
+    git:
+      url: https://github.com/devnoaman/app_manager.git
+  flutter_localizations:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/svg/
+    - assets/lottie/
+    - assets/images/
+    - assets/sounds/
+    - assets/html/
+  fonts:
+    - family: Graphik-Arabic
+      fonts:
+        - asset: assets/fonts/graphik/GRAPHIK-ARABIC-BLACK.OTF
+        - asset: assets/fonts/graphik/GRAPHIK-ARABIC-BOLD.OTF
+        - asset: assets/fonts/graphik/GRAPHIK-ARABIC-EXTRALIGHT.OTF
+        - asset: assets/fonts/graphik/GRAPHIK-ARABIC-LIGHT.OTF
+        - asset: assets/fonts/graphik/GRAPHIK-ARABIC-MEDIUM.OTF
+        - asset: assets/fonts/graphik/GRAPHIK-ARABIC-SEMIBOLD.OTF
+        - asset: assets/fonts/graphik/GRAPHIK-ARABIC-THIN.OTF
+        - asset: assets/fonts/graphik/GRAPHIK-ARABIC.OTF
+# theme:
+#   supported: ar,en
